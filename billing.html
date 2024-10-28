@@ -43,16 +43,16 @@
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
-        <div class="row" style="color: #000;">
+        <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                        <h1 style="color: #000;">Eduriz</h1>
+                        <h1  style=" font-family: Georgia, 'Times New Roman', Times, serif; color: #000;">EDURIZ</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Serach Start ***** -->
-                    <div class="search-input" style="color: #000;">
+                    <div class="search-input"  style=" font-family: poppins; color: #000;">
                       <form id="search" action="#" style="background-color: #000; border-radius: 15px;">
                         <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
                         <i class="fa fa-search"></i>
@@ -60,17 +60,17 @@
                     </div>
                     <!-- ***** Serach Start ***** -->
                     <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li class="scroll-to-section"><a href="index.html" style="color: #000;">Home</a></li>
-                      <li class="scroll-to-section"><a href="Courses.html" style="color: #000;">Courses</a></li>
-                      <li class="scroll-to-section"><a href="Services.html" style="color: #000;">Services</a></li>
-                      <li class="scroll-to-section"><a href="about.html" style="color: #000;">about</a></li>
+                    <ul class="nav"  style="font-size: 100%; font-family: poppins; color: #000;">
+                      <li class="scroll-to-section" style="color: #000;"><a href="index.html" style="color: #000;">Home</a></li>
+                      <li class="scroll-to-section" style="color: #000;"><a href="Courses.html" style="color: #000;">Courses</a></li>
+                      <li class="scroll-to-section" style="color: #000;"><a href="Services.html" style="color: #000;">Services</a></li>
+                      <li class="scroll-to-section" style="color: #000;"><a href="about.html" style="color: #000;">About Us</a></li>
                       <!-- <li class="scroll-to-section"><a href="#team">Team</a></li> -->
-                      <!-- <li class="scroll-to-section"><a href="events.html" style="color: #000;">Events</a></li> -->
-                      <li class="scroll-to-section"><a href="Contact.html" style="color: #000;">Contact Us</a></li>
-                      <li><a href="Add_to_cart.html"><i class="fa-solid fa-cart-shopping" style="color: #000;"></i></a></li>
-                      <li><a href="login.html"><i class="fa-solid fa-user" style="color: #000;"></i></a></li>
-                  </ul>   
+                      <!-- <li class="scroll-to-section"><a href="events.html">Events</a></li> -->
+                      <li class="scroll-to-section" style="color: #000;"><a href="Contact.html" style="color: #000;">Contact Us</a></li>
+                      <li><a href="Add_to_cart.html" style="color: #000;" class="active"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                      <li><a href="login.html" style="color: #000;"><i class="fa-solid fa-user"></i></a></li>
+                  </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
@@ -88,7 +88,7 @@
   <section class="section courses" id="courses" >
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center" style="font-family: Georgia, 'Times New Roman', Times, serif;">
           <div class="section-heading">
             <h6>Learn Latest Courses and Technologies</h6>
             <h2>Let's select a course</h2>
@@ -97,7 +97,7 @@
       </div>
       <ul class="event_filter">
         <li>
-          <a class="is_active" href="login.html">Product In Detail</a>
+          <a class="is_active" href="login.html" style="font-family: Georgia, 'Times New Roman', Times, serif;">Product In Detail</a>
         </li>
       </ul>
       <!-- <div class="row event_box align-center">
@@ -108,29 +108,64 @@
 
         <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design" style="position: relative; left: 33%;">
           <div class="events_item" style="box-shadow: 4px 3px 4px 1px #828080;">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
-              <span class="category">JAVA</span>
-              
-
-
-              <span class="price"><h6><em>$</em>160</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">Beginner: <br>Duration : 60 hours <br>
-                Course Fee : 15000
-                <br>
-                <br>
-                Advanced: <br>
-                Duration : 60 hours <br>
-                Course Fee : 15000</span>
-              <h4></h4>
-              <h4>Total Fee: 30,000</h4>
-              <button class="is_active" style="background-color: #fff; border-color: #fff; box-shadow: 4px 3px 4px 1px #828080; border-radius: 32px; position: relative; left: 15%; padding: 10px; width: 70%; margin: 10px;"><a href="profile.html" style="color: #000;">Pay using PayPal</a></button>
-            </div>
-            
+              <div class="thumb">
+                  <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
+                  <span class="category" style="color: #000;">JAVA</span>
+                  <span class="price"><h6><em>$</em>160</h6></span>
+              </div>
+              <div class="down-content">
+                  <span class="author" style="color: #000; font-family: poppins;">
+                      Beginner: <br>Duration : 60 hours <br>Course Fee : 15000<br><br>
+                      Advanced: <br>Duration : 60 hours <br>Course Fee : 15000
+                  </span>
+                  <h4>Total Fee: 30,000</h4>
+                  <div class="buy-now-container">
+                      <button class="is_active buy-now-btn"><a href="profile.html">Pay Using PayPal</a></button>
+                  </div>
+              </div>
           </div>
-        </div>
+      </div>
+      
+      <style>
+      /* Buy Now Button Styling */
+      .buy-now-container {
+          text-align: center;
+          margin-top: 20px;
+      }
+      
+      .buy-now-btn {
+          background: linear-gradient(135deg, #6d5dfc, #a450fc); /* Gradient background */
+          color: #fff;
+          padding: 12px 30px;
+          border: none;
+          border-radius: 30px;
+          font-size: 1.2rem;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+          width: 70%; /* Button width */
+      }
+      
+      .buy-now-btn a {
+          color: #fff;
+          text-decoration: none;
+      }
+
+      .buy-now-btn:hover a {
+          color: #6d5dfc;
+          text-decoration: none;
+      }
+      
+      /* Hover Effect */
+      .buy-now-btn:hover {
+          background: transparent;
+          color: #6d5dfc;
+          border: 2px solid #6d5dfc;
+          transform: scale(1.05);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      }
+      </style>
     
       </div>
     </div>

@@ -134,21 +134,24 @@ body {
 
 .main-button a {
   display: inline-block;
-  background-color: #b7d0b6;
-  color: #7a6ad8;
+  background: linear-gradient(135deg, #6d5dfc, #a450fc);
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
   line-height: 40px;
   padding: 0px 25px;
   border-radius: 20px;
-  transition: all .3s;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
 }
 
 .main-button a:hover {
-  background-color: #7a6ad8;
+  background: linear-gradient(135deg, #a450fc, #6d5dfc);
   color: #fff;
+  transform: scale(1.05);
 }
+
 
 /* 
 ---------------------------------------------
@@ -792,7 +795,7 @@ Services Style
   display: inline-block;
   text-align: center;
   line-height: 145px;
-  background-color: #7a6ad8;
+  background-color: #0dbd05;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -802,6 +805,7 @@ Services Style
 
 .services .service-item .image :hover{
   box-shadow: 3px 2px 3px 1px #828080;
+  background-color: #000;
 }
 
 .services .service-item .icon img {
@@ -998,7 +1002,7 @@ Courses Style
   position: absolute;
   right: -30px;
   top: -50px;
-  background-color: rgba(122, 106, 216, 0.95);
+  background-color: rgb(147 219 115);
   width: 130px;
   height: 130px;
   border-radius: 50%;
